@@ -22,6 +22,7 @@ Ce projet permet d'effectuer les tâches suivantes :
 * Avoir ceci d'installé :
   * `sudo apt-get install libmysqlclient-dev`
   * `sudo apt-get install libqt5sql5-mysql`
+  * `sudo apt-get install libqt5serialport5-dev`
 
 ## 💡 Prérequis MySQL
 * Avoir MySQL
@@ -49,15 +50,15 @@ Petite idée de l'interface.
 
 * Connexion :
 
-![image](https://github.com/user-attachments/assets/ba002066-63c4-4d89-9d83-cf543e18927f)
+![image](https://github.com/user-attachments/assets/a580207f-0f9a-4824-8676-b21d2d20df08)
 
 * Menu Client :
-
-![image](https://github.com/user-attachments/assets/bd7dae3b-4059-415c-8120-ea7184fb35eb)
+  
+![image](https://github.com/user-attachments/assets/b1655ba6-7faa-4a89-9875-20c8de77e70d)
 
 * BDD Sql :
 
-![image](https://github.com/user-attachments/assets/2b113231-8b8b-44c8-a2f0-41d824e2e97b)
+![image](https://github.com/user-attachments/assets/ce547214-64cd-4548-a1d2-350d9f763f45)
 
 
 ## 📧 Crédits
