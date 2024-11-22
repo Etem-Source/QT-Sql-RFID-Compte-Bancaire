@@ -1,6 +1,6 @@
-# 💸 QT Compte Bancaire MySQL
+# 💸 QT Compte Bancaire MySQL (RFID)
 Ce projet permet d'effectuer les tâches suivantes : 
-* S'authentifier Client
+* S'authentifier Client (Avec un badge RFID, uniquement)
   * Opérations
     * Crédit
     * Débit
