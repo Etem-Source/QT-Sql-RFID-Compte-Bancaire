@@ -60,6 +60,15 @@ Petite idée de l'interface.
 
 ![image](https://github.com/user-attachments/assets/ce547214-64cd-4548-a1d2-350d9f763f45)
 
+* Branchement Nano > RC522 :
+  * 3V3 > 3.3V
+  * GND > GND
+  * D13 > SCK
+  * D9 > RST
+  * D10 > SDA
+  * D11 > MOSI
+  * D12 > MISO
+* Téléversez ainsi le code rfid.ino dans l'arduino nano
 
 ## 📧 Crédits
 * [Etem](https://github.com/Etem-Source)
