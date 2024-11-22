@@ -106,6 +106,7 @@ void LoginWindow::login()
         MainWindow *mainWindow = new MainWindow(clientId);
         mainWindow->show();
         this->close();
+        serial->close();
     } else {
         loginButton->setStyleSheet("QPushButton { background-color: #ff0000; }"); // Rouge
         QMessageBox::warning(this, "Erreur", "CIN ou Code Secret incorrect");
@@ -159,7 +160,6 @@ void LoginWindow::readSerialData() {
 
             // Mettre à jour le champ CIN avec l'UID
             cinEdit->setText(uid);
-            serial->close();
         }
     }
 }
