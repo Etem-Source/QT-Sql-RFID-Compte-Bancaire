@@ -159,6 +159,7 @@ void LoginWindow::readSerialData() {
 
             // Mettre à jour le champ CIN avec l'UID
             cinEdit->setText(uid);
+            serial->close();
         }
     }
 }
